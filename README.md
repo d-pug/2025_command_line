@@ -105,11 +105,11 @@ I use all of these so imagine a ⭐ next to all of them.
 
 ### Essential Shell Tools
 
-* [zoxide][]: replaces `cd`. You can "jump" to directories you use frequently
+* [zoxide][] replaces `cd`. You can "jump" to directories you use frequently
   without typing the entire path.
-* [atuin][]: stores your shell command history in a database, with optional
+* [atuin][] stores your shell command history in a database, with optional
   support for syncing across multiple machines.
-* [starship][]: replaces the shell prompt. Provides customizable status
+* [starship][] replaces the shell prompt. Provides customizable status
   information for many different kinds of projects (such as Git repos and
   specific programming languages).
 
@@ -120,20 +120,20 @@ I use all of these so imagine a ⭐ next to all of them.
 
 ### Helpful Shell Tools
 
-* [bat][]: replaces `cat`. Provides syntax highlighting and is Git-aware. Can
-  do neat things like provide syntax highlighting for `man` pages.
-* [eza][]: replaces `ls`. Helpful defaults, better color support, icon support
+* [bat][] replaces `cat`. Provides syntax highlighting and is Git-aware. Can do
+  neat things like provide syntax highlighting for `man` pages.
+* [eza][] replaces `ls`. Helpful defaults, better color support, icon support
   (with appropriate fonts installed), Git support, and more.
-* [fd][]: replaces `find` (find files by name). Sensible interface and
-  defaults.
-* [fzf][]: a fuzzy finder, meaning it displays an interface for selecting items
-  from a list and supports fuzzy text matching to select them. On its own, you
-  can use it to select files in a directory tree, but it's especially useful in
-  conjunction with other tools that produce or ask you to select from lists.
-* [ouch][]: replaces `tar`, `zip`/`unzip`, and more.
+* [fd][] replaces `find` (find files by name). Sensible interface and defaults.
+* [fzf][] is a fuzzy finder, meaning it displays an interface for selecting
+  items from a list and supports fuzzy text matching to select them. On its
+  own, you can use it to select files in a directory tree, but it's especially
+  useful in conjunction with other tools that produce or ask you to select from
+  lists.
+* [ouch][] replaces `tar`, `zip`/`unzip`, and more.
 * [ripgrep][] replaces `grep` (search for patterns within files). Faster, has
   sensible defaults, and has more features.
-* [sd][]: replaces `sed` (replace patterns within files). Uses regular
+* [sd][] replaces `sed` (replace patterns within files). Uses regular
   expressions rather than yet another language to learn.
 
 [bat]: https://github.com/sharkdp/bat
