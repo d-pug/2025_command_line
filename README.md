@@ -1,9 +1,9 @@
-# Command Line Tips & Tricks
+# Comfy Command Line
 
-This is a collection of tools and settings I've found helpful for making the
-command line more comfortable and convenient.
+This is a collection of tools for making the command line more comfortable and
+convenient.
 
-⭐ is what I use.
+✨ means easy to install and start using. 🐈 means it's what I use.
 
 
 ## Shell
@@ -21,9 +21,10 @@ else.
 Two modern shells are especially popular because they're easy to learn if you
 already know Bash:
 
-* ⭐[fish][] is a shell designed to be more user-friendly than Bash. The syntax
-  is more like a modern programming language and removes many of the pitfalls
-  of Bash while still feeling familiar. It comes with helpful defaults.
+* ✨🐈[fish][] is a shell designed to be more user-friendly than Bash. The
+  syntax is more like a modern programming language and removes many of the
+  pitfalls of Bash while still feeling familiar. It comes with helpful
+  defaults.
 * [zsh][] is the default shell on macOS. The syntax is nearly the same as Bash,
   so there are only minor improvements there, but it has many other features
   and is highly customizable. The default configuration is not especially
@@ -38,7 +39,7 @@ already know Bash:
 There are also several shells that are substantially different from Bash. These
 might take longer to get used to if you decide to switch. Here are a few:
 
-* [xonsh][] is a Python shell. The syntax is Python with a few additions to
+* ✨[xonsh][] is a Python shell. The syntax is Python with a few additions to
   make interactive use as a shell more convenient.
 * [nushell][] is a shell designed around safely passing data between commands.
 
@@ -54,7 +55,7 @@ a familiar tool for when you can't work graphically and as a backup.
 
 Here are a few editors (but there are many more):
 
-* ⭐[NeoVim][] or [Vim][] are modernized versions of `vi` (although Vim is also
+* 🐈[NeoVim][] or [Vim][] are modernized versions of `vi` (although Vim is also
   quite old). Both use a modal editing model that takes some time to learn.
   NeoVim improves on Vim by providing helpful defaults, providing built-in
   support for the language server protocol, using the [Lua][] language for
@@ -65,7 +66,7 @@ Here are a few editors (but there are many more):
 * [helix][] is inspired by NeoVim (and Kakoune), but has many distinct design
   choices. It's intended as a "batteries included" editor that has many
   features and requires minimal configuration.
-* [micro][] is a modernized `nano`. It's easy to install and start using, has
+* ✨[micro][] is a modernized `nano`. It's easy to install and start using, has
   built-in syntax highlighting, and can be customized.
 
 [NeoVim]: https://neovim.io/
@@ -86,7 +87,7 @@ lose anything if you accidentally close the terminal.
 
 There are two popular options:
 
-* ⭐[tmux][] is newer than Screen. It provides a user interface to help you
+* ✨🐈[tmux][] is newer than Screen. It provides a user interface to help you
   understand its status and what programs are running. It also provides shell
   commands so that you can control it from any terminal (not just ones where
   it's open).
@@ -101,15 +102,15 @@ separate terminal multiplexer is not necessary.
 
 ## Other Stuff
 
-I use all of these so imagine a ⭐ next to all of them.
+I use all of these so imagine a 🐈 next to all of them.
 
 ### Essential Shell Tools
 
-* [zoxide][] replaces `cd`. You can "jump" to directories you use frequently
+* ✨[zoxide][] replaces `cd`. You can "jump" to directories you use frequently
   without typing the entire path.
-* [atuin][] stores your shell command history in a database, with optional
+* ✨[atuin][] stores your shell command history in a database, with optional
   support for syncing across multiple machines.
-* [starship][] replaces the shell prompt. Provides customizable status
+* ✨[starship][] replaces the shell prompt. Provides customizable status
   information for many different kinds of projects (such as Git repos and
   specific programming languages).
 
@@ -120,20 +121,21 @@ I use all of these so imagine a ⭐ next to all of them.
 
 ### Helpful Shell Tools
 
-* [bat][] replaces `cat`. Provides syntax highlighting and is Git-aware. Can do
-  neat things like provide syntax highlighting for `man` pages.
-* [eza][] replaces `ls`. Helpful defaults, better color support, icon support
+* ✨[bat][] replaces `cat`. Provides syntax highlighting and is Git-aware. Can
+  do neat things like provide syntax highlighting for `man` pages.
+* ✨[eza][] replaces `ls`. Helpful defaults, better color support, icon support
   (with appropriate fonts installed), Git support, and more.
-* [fd][] replaces `find` (find files by name). Sensible interface and defaults.
+* ✨[fd][] replaces `find` (find files by name). Sensible interface and
+  defaults.
 * [fzf][] is a fuzzy finder, meaning it displays an interface for selecting
   items from a list and supports fuzzy text matching to select them. On its
   own, you can use it to select files in a directory tree, but it's especially
   useful in conjunction with other tools that produce or ask you to select from
   lists.
-* [ouch][] replaces `tar`, `zip`/`unzip`, and more.
-* [ripgrep][] replaces `grep` (search for patterns within files). Faster, has
+* ✨[ouch][] replaces `tar`, `zip`/`unzip`, and more.
+* ✨[ripgrep][] replaces `grep` (search for patterns within files). Faster, has
   sensible defaults, and has more features.
-* [sd][] replaces `sed` (replace patterns within files). Uses regular
+* ✨[sd][] replaces `sed` (replace patterns within files). Uses regular
   expressions rather than yet another language to learn.
 
 [bat]: https://github.com/sharkdp/bat
